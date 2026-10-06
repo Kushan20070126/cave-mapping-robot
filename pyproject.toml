@@ -1,0 +1,22 @@
+[project]
+name = "cave"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Kushan20070126", email = "kushanrandikaherath@outlook.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pyqt6>=6.11.0",
+    "pyqt6-webengine>=6.11.0",
+    "pywebview>=6.2.1",
+    "qtpy>=2.4.3",
+]
+
+[project.scripts]
+cave = "cave:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"
